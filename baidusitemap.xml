@@ -4,21 +4,21 @@
 
     
   <url>
-    <loc>http://zhouxl.github.io/2016/12/25/linux-shell-pwd/</loc>
-    <lastmod>2016-12-25T05:57:41.000Z</lastmod>
+    <loc>http://zhouxl.github.io/2016/12/27/linux-shell-cat/</loc>
+    <lastmod>2016-12-27T08:30:45.000Z</lastmod>
     <data>
         <display>
-        <title>「Linux」命令 $pwd</title>
-        <pubTime>2016-12-25T05:56:30.000Z</pubTime>
+        <title>「Linux」命令 $cat</title>
+        <pubTime>2016-12-27T08:28:56.000Z</pubTime>
         
-        <tag>linux</tag>
+        <tag>Shell</tag>
          
-        <tag>shell</tag>
+        <tag>Linux</tag>
          
          
            
              
-              <breadCrumb title="linux" url="http://zhouxl.github.io/categories/linux/"/>
+              <breadCrumb title="Linux" url="http://zhouxl.github.io/categories/linux/"/>
           
         </display>
     </data>
@@ -27,20 +27,20 @@
     
   <url>
     <loc>http://zhouxl.github.io/2016/12/24/linux-shell-cd/</loc>
-    <lastmod>2016-12-24T03:49:36.000Z</lastmod>
+    <lastmod>2016-12-27T08:30:24.000Z</lastmod>
     <data>
         <display>
         <title>「Linux」命令 $cd</title>
         <pubTime>2016-12-24T03:47:46.000Z</pubTime>
         
-        <tag>linux</tag>
+        <tag>Shell</tag>
          
-        <tag>shell</tag>
+        <tag>Linux</tag>
          
          
            
              
-              <breadCrumb title="linux" url="http://zhouxl.github.io/categories/linux/"/>
+              <breadCrumb title="Linux" url="http://zhouxl.github.io/categories/linux/"/>
           
         </display>
     </data>
@@ -49,20 +49,42 @@
     
   <url>
     <loc>http://zhouxl.github.io/2016/12/22/linux-shell-ls/</loc>
-    <lastmod>2016-12-24T03:48:36.000Z</lastmod>
+    <lastmod>2016-12-27T08:30:15.000Z</lastmod>
     <data>
         <display>
         <title>「Linux」命令 $ls</title>
         <pubTime>2016-12-22T04:11:15.000Z</pubTime>
         
-        <tag>linux</tag>
+        <tag>Shell</tag>
          
-        <tag>shell</tag>
+        <tag>Linux</tag>
          
          
            
              
-              <breadCrumb title="linux" url="http://zhouxl.github.io/categories/linux/"/>
+              <breadCrumb title="Linux" url="http://zhouxl.github.io/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhouxl.github.io/2016/12/25/linux-shell-pwd/</loc>
+    <lastmod>2016-12-27T08:30:04.000Z</lastmod>
+    <data>
+        <display>
+        <title>「Linux」命令 $pwd</title>
+        <pubTime>2016-12-25T05:56:30.000Z</pubTime>
+        
+        <tag>Shell</tag>
+         
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://zhouxl.github.io/categories/linux/"/>
           
         </display>
     </data>
