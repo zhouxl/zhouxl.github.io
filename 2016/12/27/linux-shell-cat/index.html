@@ -90,7 +90,7 @@
 <meta property="og:url" content="http://zhouxl.github.io/2016/12/27/linux-shell-cat/index.html">
 <meta property="og:site_name" content="程序员与猫">
 <meta property="og:description" content="cat是concatenate(连续)的缩写，用来显示文件内容和标准流上的处理">
-<meta property="og:updated_time" content="2016-12-27T08:30:45.000Z">
+<meta property="og:updated_time" content="2016-12-27T09:02:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="「Linux」命令 $cat">
 <meta name="twitter:description" content="cat是concatenate(连续)的缩写，用来显示文件内容和标准流上的处理">
@@ -303,7 +303,7 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-check-o"></i>
             </span>
-            <time title="Post modified" itemprop="dateModified" datetime="2016-12-27T16:30:45+08:00">
+            <time title="Post modified" itemprop="dateModified" datetime="2016-12-27T17:02:44+08:00">
               2016-12-27
             </time>
             
@@ -381,9 +381,13 @@
 <em>-n</em>, --number 由1开始对所有输出的行数编号<br>
 <em>-s</em>, --squeeze-blank 有连续两行以上的空白行，就代换为一行的空白行</p>
 <h3 id="应用"><a class="header-anchor" href="#应用">¶</a>应用</h3>
-<ol>
-<li>显示整个文件内容 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">    ➜  ~ cat filename</div><div class="line">   ``` </div><div class="line">2. 创建file1(只能创建新文件，不能编辑已有文件)</div><div class="line">    ```shell</div><div class="line">   ➜  ~ cat &gt; file1</div><div class="line">    ``` </div><div class="line">3. 将file1和file2的内容加上行号后 附加到新文件file3中</div><div class="line">    ```shell</div><div class="line">        ➜  ~ cat -b file1 file2 &gt; file3</div></pre></td></tr></table></figure></li>
-</ol>
+<pre><code class="language-shell"># 显示整个文件内容
+$cat filename
+# 创建file1(只能创建新文件，不能编辑已有文件)
+$cat &gt; file1    
+# 将file1和file2的内容加上行号后 附加到新文件file3中
+$cat -b file1 file2 &gt; file3
+</code></pre>
 
       
     </div>
@@ -443,6 +447,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/12/27/linux-shell-cp/" rel="prev" title="「Linux」命令 $cp">
+                「Linux」命令 $cp <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -517,7 +525,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-count">6</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>

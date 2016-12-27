@@ -4,8 +4,30 @@
 
     
   <url>
+    <loc>http://zhouxl.github.io/2016/12/27/linux-shell-cp/</loc>
+    <lastmod>2016-12-27T09:10:25.000Z</lastmod>
+    <data>
+        <display>
+        <title>「Linux」命令 $cp</title>
+        <pubTime>2016-12-27T08:57:25.000Z</pubTime>
+        
+        <tag>Shell</tag>
+         
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://zhouxl.github.io/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://zhouxl.github.io/2016/12/27/linux-shell-cat/</loc>
-    <lastmod>2016-12-27T08:30:45.000Z</lastmod>
+    <lastmod>2016-12-27T09:02:44.000Z</lastmod>
     <data>
         <display>
         <title>「Linux」命令 $cat</title>
