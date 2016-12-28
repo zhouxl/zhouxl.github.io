@@ -2,37 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zhouxl.github.io/2016/12/27/linux-shell-cp/</loc>
+    <loc>http://zhouxl.github.io/2016/12/25/linux-shell-pwd/</loc>
     
-    <lastmod>2016-12-27T09:10:25.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhouxl.github.io/2016/12/27/linux-shell-cat/</loc>
-    
-    <lastmod>2016-12-27T09:02:44.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhouxl.github.io/2016/12/24/linux-shell-cd/</loc>
-    
-    <lastmod>2016-12-27T08:30:24.000Z</lastmod>
+    <lastmod>2016-12-28T03:22:49.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://zhouxl.github.io/2016/12/22/linux-shell-ls/</loc>
     
-    <lastmod>2016-12-27T08:30:15.000Z</lastmod>
+    <lastmod>2016-12-28T03:22:38.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zhouxl.github.io/2016/12/25/linux-shell-pwd/</loc>
+    <loc>http://zhouxl.github.io/2016/12/27/linux-shell-cp/</loc>
     
-    <lastmod>2016-12-27T08:30:04.000Z</lastmod>
+    <lastmod>2016-12-28T03:22:32.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhouxl.github.io/2016/12/24/linux-shell-cd/</loc>
+    
+    <lastmod>2016-12-28T03:22:25.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhouxl.github.io/2016/12/27/linux-shell-cat/</loc>
+    
+    <lastmod>2016-12-28T03:22:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhouxl.github.io/2016/12/28/linux-shell-mkdir/</loc>
+    
+    <lastmod>2016-12-28T03:21:54.000Z</lastmod>
     
   </url>
   
