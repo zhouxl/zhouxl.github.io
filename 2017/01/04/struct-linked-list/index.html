@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Shell,Linux," />
+  <meta name="keywords" content="链表,数据结构," />
 
 
 
@@ -84,16 +84,18 @@
 
 
 
-<meta name="description" content="cp是 copy (连续)的缩写，将源文件复制到一个路径下。">
+<meta name="description" content="链表是一种递归的数据结构，它或者为空（null），或者是指向一个结点（node）的引用 ，该结点含有一个泛型的元素和一个指向另一条链表的引用。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="「Linux」命令 $cp">
-<meta property="og:url" content="http://zhouxl.github.io/2016/12/27/linux-shell-cp/index.html">
+<meta property="og:title" content="「数据结构」链表（Linked list）">
+<meta property="og:url" content="http://zhouxl.github.io/2017/01/04/struct-linked-list/index.html">
 <meta property="og:site_name" content="程序员与猫">
-<meta property="og:description" content="cp是 copy (连续)的缩写，将源文件复制到一个路径下。">
-<meta property="og:updated_time" content="2016-12-28T03:22:32.000Z">
+<meta property="og:description" content="链表是一种递归的数据结构，它或者为空（null），或者是指向一个结点（node）的引用 ，该结点含有一个泛型的元素和一个指向另一条链表的引用。">
+<meta property="og:image" content="http://zhouxl.github.io/2017/01/04/struct-linked-list/node.png">
+<meta property="og:updated_time" content="2017-01-04T10:48:09.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="「Linux」命令 $cp">
-<meta name="twitter:description" content="cp是 copy (连续)的缩写，将源文件复制到一个路径下。">
+<meta name="twitter:title" content="「数据结构」链表（Linked list）">
+<meta name="twitter:description" content="链表是一种递归的数据结构，它或者为空（null），或者是指向一个结点（node）的引用 ，该结点含有一个泛型的元素和一个指向另一条链表的引用。">
+<meta name="twitter:image" content="http://zhouxl.github.io/2017/01/04/struct-linked-list/node.png">
 
 
 
@@ -121,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://zhouxl.github.io/2016/12/27/linux-shell-cp/"/>
+  <link rel="canonical" href="http://zhouxl.github.io/2017/01/04/struct-linked-list/"/>
 
 
 
 
 
-  <title> 「Linux」命令 $cp | 程序员与猫 </title>
+  <title> 「数据结构」链表（Linked list） | 程序员与猫 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -258,7 +260,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://zhouxl.github.io/2016/12/27/linux-shell-cp/">
+  <link itemprop="mainEntityOfPage" href="http://zhouxl.github.io/2017/01/04/struct-linked-list/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="小六">
@@ -282,7 +284,7 @@
             
             
               
-                「Linux」命令 $cp
+                「数据结构」链表（Linked list）
               
             
           </h1>
@@ -294,8 +296,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-27T16:57:25+08:00">
-              2016-12-27
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-04T14:50:04+08:00">
+              2017-01-04
             </time>
 
             &nbsp;|&nbsp;
@@ -303,8 +305,8 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-check-o"></i>
             </span>
-            <time title="Post modified" itemprop="dateModified" datetime="2016-12-28T11:22:32+08:00">
-              2016-12-28
+            <time title="Post modified" itemprop="dateModified" datetime="2017-01-04T18:48:09+08:00">
+              2017-01-04
             </time>
             
           </span>
@@ -318,8 +320,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/linux/" itemprop="url" rel="index">
-                    <span itemprop="name">Linux</span>
+                  <a href="/categories/数据结构/" itemprop="url" rel="index">
+                    <span itemprop="name">数据结构</span>
                   </a>
                 </span>
 
@@ -334,8 +336,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/12/27/linux-shell-cp/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/12/27/linux-shell-cp/" itemprop="commentCount"></span>
+                <a href="/2017/01/04/struct-linked-list/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/04/struct-linked-list/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -345,7 +347,7 @@
 
           
           
-             <span id="/2016/12/27/linux-shell-cp/" class="leancloud_visitors" data-flag-title="「Linux」命令 $cp">
+             <span id="/2017/01/04/struct-linked-list/" class="leancloud_visitors" data-flag-title="「数据结构」链表（Linked list）">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -371,37 +373,25 @@
 
       
         <blockquote>
-<p><strong>cp</strong>是 <em>copy</em> (连续)的缩写，将源文件复制到一个路径下。</p>
+<p>链表是一种递归的数据结构，它或者为空（null），或者是指向一个结点（node）的引用 ，该结点含有一个泛型的元素和一个指向另一条链表的引用。</p>
 </blockquote>
 <a id="more"></a>
-<h3 id="参数"><a class="header-anchor" href="#参数">¶</a>参数</h3>
-<p><em>-f</em>,  在目标文件因没有写权限而无法打开时删除目标文件。这一移除动作先于所有的cp命令复制动作。<br>
-<em>-l</em>, 链接文件而不复制<br>
-<em>-L</em>, 间接引用，复制符号链接指向的文件而不是符号链接到目的位置<br>
-<em>-i</em>, 交互，有相同文件时，提示是否覆盖<br>
-<em>-p</em>, 保持，对每个原文件，在复制时也复制以下特性</p>
-<ul>
-<li>最后一次修订时间与最后一次访问时间。</li>
-<li>所属用户ID和所属组ID（有权限时）</li>
-<li>文件权限位及SUID和SGID权限位</li>
-</ul>
-<p><em>-R</em>, 递归地复制目录中的所有内容</p>
-<h3 id="应用"><a class="header-anchor" href="#应用">¶</a>应用</h3>
-<pre><code class="language-shell"># 复制源文件的副本
-➜  ~ cp test1.swift test1.bak
-#复制到另一目录
-➜  ~ cp test1.swift  ./backup
-# 复制为新文件，并保留修改日期与想着的访问控制权限
-➜  ~ cp -p test1.swift  test1.bak
-# 复制目录下所有文件到新目录中
-➜  ~ cp ./models/* ./backup
-# 将一个目录，包括其包含的所有文件与子目录复制到另一目录中
-➜  ~ cp -R ./models/ ./backup
-# 复制一些文件到指定目录
-➜  ~ cp a.swift b.swift c.swift ./views
-# 使用模式匹配字符来复制文件
-➜  ~ cp *.mm ./moduls
-</code></pre>
+<p>链表最核心的数据结构</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Node</span> </span>&#123;</div><div class="line">    <span class="keyword">let</span> item: <span class="type">Any</span></div><div class="line">    <span class="keyword">let</span> next: <span class="type">Node</span>?</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="链表与数组区别"><a class="header-anchor" href="#链表与数组区别">¶</a>链表与数组区别</h2>
+<p>链表元素通常都是分散在内存空间中的，以致可以充分利用计算机内存空间，实现灵活的内存动态管理。但是链表失去了数组随机读取的优点，同时因为指针域增加了空间开销</p>
+<h2 id="单链表"><a class="header-anchor" href="#单链表">¶</a>单链表</h2>
+<p>由各个元素之间通过一个指针彼此链接起来而组成。每个元素包含两部分:数据成员和一个称为<strong>next</strong>的指针。每个元素的next指针指向其后面的元素，最后一个元素的next指针设置为NULL。链表开始处的元素是“头”，链表末尾的元素称为“尾”。<br>
+要访问链表中的某个元素，就要从链表头开始，通过next指针从一个元素到另一个元素连续地遍历走到找到所需要的那个元素为止。时间复杂度为O(n),有可能要遍历所有的元素才能知道在哪个位置，或者遍历完后也找不到该元素。</p>
+<img src="/2017/01/04/struct-linked-list/node.png" alt="链表" title="链表">
+<h2 id="双向链表"><a class="header-anchor" href="#双向链表">¶</a>双向链表</h2>
+<p>链表元素之间通过两个指针链接。双向链表中的每一个元素都由3部分组成：除了数据成员和next指针外，每个元素还包含一个指向其前驱元素的指针，称为prev指针。双向链表的组成是这样的：将一些元素链接在一起使得每个元素的next指针都指向其后继的元素，而每个元素的prev指针都指向其前驱元素。为了标识链表的头和尾，将第一个元素的prev指针和最后一个元素的next指针设置为NULL</p>
+<blockquote>
+<p>双向链表的一种灵活性在于它提供了一种比单链表更直观的方式以移除一个元素。</p>
+</blockquote>
+<h2 id="循环链表"><a class="header-anchor" href="#循环链表">¶</a>循环链表</h2>
+<p>链表最后一个元素的指针指向链表的首元素。循环链表可以是单向的或双向的，但区分一个链表是不是循环链表只要看它有没有尾部元素即可。<br>
+在循环链表中，最后一个元素的next指针又指回头元素而不是设置为NULL。在双向循环链表中，头元素的prev指针则指向最后一个元素，这使得循环链表中的每个元素既可以看做头元素也可以看做尾元素</p>
 
       
     </div>
@@ -441,9 +431,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/shell/" rel="tag"># Shell</a>
+            <a href="/tags/链表/" rel="tag"># 链表</a>
           
-            <a href="/tags/linux/" rel="tag"># Linux</a>
+            <a href="/tags/数据结构/" rel="tag"># 数据结构</a>
           
         </div>
       
@@ -452,8 +442,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/12/27/linux-shell-cat/" rel="next" title="「Linux」命令 $cat">
-                <i class="fa fa-chevron-left"></i> 「Linux」命令 $cat
+              <a href="/2017/01/04/2017-plan/" rel="next" title="2017年计划">
+                <i class="fa fa-chevron-left"></i> 2017年计划
               </a>
             
           </div>
@@ -461,10 +451,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/12/28/linux-shell-mkdir/" rel="prev" title="「Linux」命令 $mkdir">
-                「Linux」命令 $mkdir <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -493,8 +479,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/12/27/linux-shell-cp/"
-           data-title="「Linux」命令 $cp" data-url="http://zhouxl.github.io/2016/12/27/linux-shell-cp/">
+      <div class="ds-thread" data-thread-key="2017/01/04/struct-linked-list/"
+           data-title="「数据结构」链表（Linked list）" data-url="http://zhouxl.github.io/2017/01/04/struct-linked-list/">
       </div>
     
   </div>
@@ -602,7 +588,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#参数"><span class="nav-number">1.</span> <span class="nav-text">¶参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#应用"><span class="nav-number">2.</span> <span class="nav-text">¶应用</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#链表与数组区别"><span class="nav-number">1.</span> <span class="nav-text">¶链表与数组区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#单链表"><span class="nav-number">2.</span> <span class="nav-text">¶单链表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#双向链表"><span class="nav-number">3.</span> <span class="nav-text">¶双向链表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#循环链表"><span class="nav-number">4.</span> <span class="nav-text">¶循环链表</span></a></li></ol></div>
             
 
           </div>
