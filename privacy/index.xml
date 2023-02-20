@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privacies on 星辰大海</title>
+    <link>https://zhouxl.github.io/privacy/</link>
+    <description>Recent content in Privacies on 星辰大海</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 20 Feb 2023 22:02:50 +0800</lastBuildDate><atom:link href="https://zhouxl.github.io/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于图片组合的隐私声明</title>
+      <link>https://zhouxl.github.io/privacy/group_images/</link>
+      <pubDate>Mon, 20 Feb 2023 22:02:50 +0800</pubDate>
+      
+      <guid>https://zhouxl.github.io/privacy/group_images/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
