@@ -2,8 +2,8 @@
     <channel>
         <title>星辰大海</title>
         <link>https://zhouxl.github.io/</link>
-        <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 20 Feb 2023 22:02:50 &#43;0800</lastBuildDate>
+        <description>Hugo theme - LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 20 Feb 2023 22:02:50 &#43;0800</lastBuildDate>
             <atom:link href="https://zhouxl.github.io/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>
