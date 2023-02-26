@@ -2,8 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://zhouxl.github.io/privacy/</loc><lastmod>2023-02-26T23:29:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://zhouxl.github.io/</loc><lastmod>2023-02-26T23:29:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://zhouxl.github.io/privacy/</loc><lastmod>2023-02-26T23:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zhouxl.github.io/</loc><lastmod>2023-02-26T23:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://zhouxl.github.io/en/"
@@ -12,7 +12,7 @@
                     hreflang="zh-cn"
                     href="https://zhouxl.github.io/"
                     /></url><url>
-            <loc>https://zhouxl.github.io/privacy/chat_open_ai/</loc><lastmod>2023-02-26T23:29:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zhouxl.github.io/privacy/chat_open_ai/</loc><lastmod>2023-02-26T23:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zhouxl.github.io/about/</loc><lastmod>2023-02-20T23:33:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zhouxl.github.io/privacy/group_images/</loc><lastmod>2023-02-20T23:33:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zhouxl.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
